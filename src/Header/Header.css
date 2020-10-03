@@ -21,6 +21,7 @@
     flex:1;
     padding: 10px;
     height: 30px;
+    max-width: fit-content;
     border: 1px solid lightgray;
     border-radius: 999px;
 }
@@ -34,5 +35,7 @@
 .header__right {
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
 }
