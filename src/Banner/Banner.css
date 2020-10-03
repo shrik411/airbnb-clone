@@ -1,0 +1,35 @@
+.banner {
+    background: url("https://www.esquireme.com/public/styles/full_img/public/images/2019/11/03/airbnb-678x381.jpg") center center;
+    height: 50vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: #000;
+    color: #FFF;
+    max-width: 300px;
+    padding: 25vh 50px 40px;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #000;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
