@@ -14,7 +14,7 @@ function SearchResult({
     total
 }) {
     return (
-        <div className="searchResult">
+        <div className="SearchResult">
             <img src={img} alt="" />
             <FavoriteBorderIcon className="searchResult__heart" />
             <div className="searchResult__info">
